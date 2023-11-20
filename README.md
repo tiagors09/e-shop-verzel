@@ -22,21 +22,17 @@ Este projeto é um e-shop de carros desenvolvido em Flutter para o front end e S
 4. Configure o PostgreSQL e ajuste as configurações de banco de dados em `application.properties`.
 5. Execute o projeto como uma aplicação Spring Boot.
 
-## application.yml
+## application.properties
 
-```yml
+```properties
 # Configurações do Banco de Dados
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/seu_banco_de_dados
-    username: seu_usuario
-    password: sua_senha
+spring.datasource.url=jdbc:postgresql://localhost:5432/seu_banco_de_dados
+spring.datasource.username=seu_usuario
+spring.datasource.password=sua_senha
 
 # Configurações do Hibernate
-jpa:
-  show-sql: true
-  hibernate:
-    ddl-auto: update
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
 ```
 
 ## Diário de Desenvolvimento
@@ -45,10 +41,10 @@ jpa:
 
 - [x] Inicializar projeto Flutter.
 - [x] Configurar projeto Spring Boot.
-- [ ] Configurar conexão com o banco de dados.
-- [ ] Configurar classes de modelo para representar os veículos no back end.
-- [ ] Configurar o Spring Data JPA para facilitar o acesso aos dados relacionais.
-- [ ]  Criar interface de repositório (`VeiculoRepository`) para operações CRUD.
+- [x] Configurar conexão com o banco de dados.
+- [x] Configurar classes de modelo para representar os veículos no back end.
+- [x] Configurar o Spring Data JPA para facilitar o acesso aos dados relacionais.
+- [x] Criar interface de repositório (`VeiculoRepository`) para operações CRUD.
 
 ### Dia 2 - Autenticação
 
