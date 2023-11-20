@@ -29,6 +29,8 @@ Este projeto é um e-shop de carros desenvolvido em Flutter para o front end e S
 - [ ] Inicializar projeto Flutter.
 - [ ] Configurar projeto Spring Boot.
 - [ ] Configurar conexão com o banco de dados.
+- [ ] Configurar classes de modelo para representar os veículos no back end.
+- [ ] Configurar o Spring Data JPA para facilitar o acesso aos dados relacionais.
 
 ### Dia 2 - Autenticação
 
