@@ -48,6 +48,7 @@ jpa:
 - [ ] Configurar conexão com o banco de dados.
 - [ ] Configurar classes de modelo para representar os veículos no back end.
 - [ ] Configurar o Spring Data JPA para facilitar o acesso aos dados relacionais.
+- [ ]  Criar interface de repositório (`VeiculoRepository`) para operações CRUD.
 
 ### Dia 2 - Autenticação
 
